@@ -1,5 +1,5 @@
 const express = require('express');
-const Router = require('./routes/mainRoutes');
+const Router = require('./routes/questionBankRoutes');
 
 //rest object.
 
