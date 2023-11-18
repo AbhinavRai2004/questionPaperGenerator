@@ -6,7 +6,76 @@
     "difficulty": "Easy",
     "marks": 5
   },
-
+  {
+    "question": "What is the capital of Canada?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Who is the author of 'Harry Potter'?",
+    "subject": "Literature",
+    "topic": "Fiction",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "In which year did the Titanic sink?",
+    "subject": "History",
+    "topic": "Maritime",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "subject": "Mathematics",
+    "topic": "Number Theory",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Who painted 'Starry Night'?",
+    "subject": "Art",
+    "topic": "Paintings",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What is the square root of 25?",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What gas do humans exhale?",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Who sculpted 'David'?",
+    "subject": "Art",
+    "topic": "Sculpture",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What is the main component of sunlight?",
+    "subject": "Physics",
+    "topic": "Optics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
   {
     "question": "Who wrote 'Romeo and Juliet'?",
     "subject": "Literature",
@@ -14,7 +83,6 @@
     "difficulty": "Easy",
     "marks": 5
   },
-
   {
     "question": "What is the chemical symbol for gold?",
     "subject": "Chemistry",
@@ -72,27 +140,6 @@
     "marks": 5
   },
   {
-    "question": "Solve the equation: 2x + 5 = 15",
-    "subject": "Mathematics",
-    "topic": "Algebra",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Name the process by which plants make their own food.",
-    "subject": "Biology",
-    "topic": "Photosynthesis",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Who is the author of the novel 'To Kill a Mockingbird'?",
-    "subject": "Literature",
-    "topic": "American Literature",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
     "question": "What is the capital of Australia?",
     "subject": "Geography",
     "topic": "Countries",
@@ -107,9 +154,37 @@
     "marks": 10
   },
   {
-    "question": "When did the French Revolution begin?",
-    "subject": "History",
-    "topic": "French Revolution",
+    "question": "Who is the author of the novel 'To Kill a Mockingbird'?",
+    "subject": "Literature",
+    "topic": "American Literature",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Name the process by which plants make their own food.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Examine the role of mitochondria in cellular respiration.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Solve the equation: 2x + 5 = 15",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "subject": "Economics",
+    "topic": "Currencies",
     "difficulty": "Medium",
     "marks": 10
   },
@@ -121,9 +196,9 @@
     "marks": 10
   },
   {
-    "question": "Who discovered penicillin?",
-    "subject": "Medicine",
-    "topic": "Antibiotics",
+    "question": "Who discovered the theory of relativity?",
+    "subject": "Physics",
+    "topic": "Modern Physics",
     "difficulty": "Medium",
     "marks": 10
   },
@@ -135,6 +210,69 @@
     "marks": 10
   },
   {
+    "question": "What is the chemical symbol for oxygen?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the role of symbolism in James Joyce's 'Ulysses.'",
+    "subject": "Literature",
+    "topic": "Modernist Literature",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Who is the author of 'Harry Potter'?",
+    "subject": "Literature",
+    "topic": "Fiction",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the process of nuclear fission?",
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the square root of 49?",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Explain the process of protein synthesis in detail.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "subject": "Medicine",
+    "topic": "Antibiotics",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "subject": "Chemistry",
+    "topic": "Physical Properties",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
     "question": "Name the largest moon of Saturn.",
     "subject": "Astronomy",
     "topic": "Saturn's Moons",
@@ -142,72 +280,142 @@
     "marks": 10
   },
   {
-    "question": "Prove Fermat's Last Theorem.",
-    "subject": "Mathematics",
-    "topic": "Number Theory",
-    "difficulty": "Hard",
-    "marks": 15
-  },
-  {
-    "question": "Explain the process of protein synthesis in detail.",
-    "subject": "Biology",
-    "topic": "Genetics",
-    "difficulty": "Hard",
-    "marks": 15
-  },
-  {
-    "question": "Discuss the impact of the Industrial Revolution on society.",
-    "subject": "History",
-    "topic": "Industrial Revolution",
-    "difficulty": "Hard",
-    "marks": 15
-  },
-  {
-    "question": "Derive the Schrödinger equation in quantum mechanics.",
+    "question": "Explain the principles of quantum entanglement in physics.",
     "subject": "Physics",
     "topic": "Quantum Mechanics",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Examine the causes and consequences of climate change.",
+    "question": "Discuss the historical development and impact of the Industrial Revolution.",
+    "subject": "History",
+    "topic": "Industrial Revolution",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Examine the challenges and potential solutions of achieving artificial general intelligence.",
+    "subject": "Artificial Intelligence",
+    "topic": "AGI",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Analyze the ethical implications of gene editing technologies in human embryos.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Explore the mathematical foundations of chaos theory and its applications.",
+    "subject": "Mathematics",
+    "topic": "Chaos Theory",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Compare and contrast different economic systems, emphasizing the strengths and weaknesses of each.",
+    "subject": "Economics",
+    "topic": "Economic Systems",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Examine the historical and cultural impact of the Renaissance on art, science, and society.",
+    "subject": "History",
+    "topic": "Renaissance",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Discuss the role of dark matter and dark energy in the structure and expansion of the universe.",
+    "subject": "Astronomy",
+    "topic": "Cosmology",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Analyze the geopolitical consequences of climate change on global security and migration patterns.",
     "subject": "Environmental Science",
     "topic": "Climate Change",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Analyze the impact of globalization on the world economy.",
-    "subject": "Economics",
-    "topic": "Globalization",
+    "question": "Explain the principles and applications of advanced machine learning algorithms in real-world scenarios.",
+    "subject": "Artificial Intelligence",
+    "topic": "Machine Learning",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Discuss the ethical implications of artificial intelligence.",
-    "subject": "Computer Science",
-    "topic": "Artificial Intelligence",
+    "question": "Evaluate the impact of colonialism on indigenous cultures, considering both positive and negative aspects.",
+    "subject": "History",
+    "topic": "Colonialism",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Explain the concept of dark matter in astrophysics.",
-    "subject": "Astronomy",
-    "topic": "Dark Matter",
+    "question": "Examine the molecular mechanisms of antibiotic resistance in bacteria and potential strategies to combat it.",
+    "subject": "Biology",
+    "topic": "Microbiology",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Evaluate the impact of antibiotic resistance on public health.",
+    "question": "Discuss the philosophical implications of artificial intelligence and its potential impact on consciousness.",
+    "subject": "Philosophy",
+    "topic": "AI Ethics",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Analyze the historical development and impact of the Internet on communication and information dissemination.",
+    "subject": "Technology",
+    "topic": "Internet History",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Examine the physiological and psychological effects of long-term space travel on the human body and mind.",
+    "subject": "Space Science",
+    "topic": "Space Travel",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Discuss the mathematical basis and applications of game theory in various fields, including economics and biology.",
+    "subject": "Mathematics",
+    "topic": "Game Theory",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Analyze the role of women in shaping historical events and social movements throughout different time periods.",
+    "subject": "History",
+    "topic": "Women's History",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Examine the molecular and cellular mechanisms underlying neurodegenerative diseases such as Alzheimer's and Parkinson's.",
     "subject": "Medicine",
-    "topic": "Antibiotic Resistance",
+    "topic": "Neurology",
     "difficulty": "Hard",
     "marks": 15
   },
   {
-    "question": "Discuss the role of symbolism in James Joyce's 'Ulysses.'",
-    "subject": "Literature",
-    "topic": "Modernist Literature",
+    "question": "Discuss the historical and cultural significance of major ancient civilizations, such as Mesopotamia, Egypt, and the Indus Valley.",
+    "subject": "History",
+    "topic": "Ancient Civilizations",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Evaluate the economic, social, and environmental impact of large-scale renewable energy projects.",
+    "subject": "Environmental Science",
+    "topic": "Renewable Energy",
     "difficulty": "Hard",
     "marks": 15
   }
