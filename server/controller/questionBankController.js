@@ -1,7 +1,5 @@
 const quesBankGenerator = require("../service/questionBankService");
 
-// Controller Logic Given Here
-
 const questionBankController = async(req,resp) => {
     try{
         const quesPaper = await quesBankGenerator(req);

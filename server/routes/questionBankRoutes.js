@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { questionBankController} = require('../controller/questionBankController');
+const {questionBankController} = require('../controller/questionBankController');
 
 const router = express.Router();
 
