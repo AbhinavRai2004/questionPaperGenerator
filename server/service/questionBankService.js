@@ -27,8 +27,8 @@ const quesBankGenerator = (req) => {
         return {message: "Error: Negative values are not allowed for total marks or difficulty levels."};
     }
     
-    if((((userInput['totalMark']*userInput['easy'])/100) % 5 != 0) && 
-       (((userInput['totalMark']*userInput['medium'])/100) % 10 != 0) &&
+    if((((userInput['totalMark']*userInput['easy'])/100) % 5 != 0) || 
+       (((userInput['totalMark']*userInput['medium'])/100) % 10 != 0) ||
        (((userInput['totalMark']*userInput['hard'])/100) % 15 != 0))
     {
         // console.log(" The total marks cannot be distributed according to the specified percentages.");
