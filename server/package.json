@@ -1,7 +1,7 @@
 {
   "name": "questionpapergenerator",
   "version": "1.0.0",
-  "description": "generates question paper",
+  "description": "generate the question paper based on the total marks and the distribution of marks based on Difficulty",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
