@@ -12,7 +12,6 @@ const shuffleArray = (array) => {
 const quesBankGenerator = (req) => {
     const userInput = req.body;
 
-    // Ensure the 'mark', 'easy', 'medium', and 'hard' properties exist in the request body
     if (!userInput || !userInput['totalMark'] || !userInput['easy'] || !userInput['medium'] || !userInput['hard'])
     {
         console.log('Missing required parameters');
