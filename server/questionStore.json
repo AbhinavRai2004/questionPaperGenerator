@@ -74,70 +74,140 @@
     "subject": "Physics",
     "topic": "Optics",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 1
   },
   {
     "question": "Who wrote 'Romeo and Juliet'?",
     "subject": "Literature",
     "topic": "Shakespeare",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 1
   },
   {
     "question": "What is the chemical symbol for gold?",
     "subject": "Chemistry",
     "topic": "Elements",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 1
   },
   {
     "question": "In which year did Christopher Columbus reach the Americas?",
     "subject": "History",
     "topic": "Exploration",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 1
   },
   {
     "question": "What is the largest planet in our solar system?",
     "subject": "Astronomy",
     "topic": "Planets",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 1
   },
   {
     "question": "Who is known as the 'Father of Computer Science'?",
     "subject": "Computer Science",
     "topic": "Pioneers",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 2
   },
   {
     "question": "What is the square root of 64?",
     "subject": "Mathematics",
     "topic": "Algebra",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 2
   },
   {
     "question": "Which gas do plants absorb during photosynthesis?",
     "subject": "Biology",
     "topic": "Photosynthesis",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 2
   },
   {
     "question": "Who painted the Mona Lisa?",
     "subject": "Art",
     "topic": "Paintings",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 2
   },
   {
     "question": "What is the main component of Earth's atmosphere?",
     "subject": "Environmental Science",
     "topic": "Atmosphere",
     "difficulty": "Easy",
-    "marks": 5
+    "marks": 2
+  },
+  {
+    "question": "What is the speed of light?",
+    "subject": "Physics",
+    "topic": "Waves",
+    "difficulty": "Easy",
+    "marks": 3
+  },
+  {
+    "question": "Name the fundamental forces in the universe.",
+    "subject": "Physics",
+    "topic": "Particle Physics",
+    "difficulty": "Easy",
+    "marks": 3
+  },
+  {
+    "question": "Define the laws of motion.",
+    "subject": "Physics",
+    "topic": "Classical Mechanics",
+    "difficulty": "Easy",
+    "marks": 3
+  },
+  {
+    "question": "Explain the concept of entropy.",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Easy",
+    "marks": 3
+  },
+  {
+    "question": "What is the structure of an atom?",
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "marks": 3
+  },
+  {
+    "question": "Discuss the periodic table trends.",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Easy",
+    "marks": 4
+  },
+  {
+    "question": "What are chemical reactions?",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "difficulty": "Easy",
+    "marks": 4
+  },
+  {
+    "question": "Define osmosis in biology.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Easy",
+    "marks": 4
+  },
+  {
+    "question": "What is natural selection?",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "marks": 4
+  },
+  {
+    "question": "Explain the function of the respiratory system.",
+    "subject": "Biology",
+    "topic": "Human Anatomy",
+    "difficulty": "Easy",
+    "marks": 4
   },
   {
     "question": "What is the capital of Australia?",
@@ -203,69 +273,6 @@
     "marks": 10
   },
   {
-    "question": "What is the significance of the number π (pi) in geometry?",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "What is the chemical symbol for oxygen?",
-    "subject": "Chemistry",
-    "topic": "Elements",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Discuss the role of symbolism in James Joyce's 'Ulysses.'",
-    "subject": "Literature",
-    "topic": "Modernist Literature",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Who is the author of 'Harry Potter'?",
-    "subject": "Literature",
-    "topic": "Fiction",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "What is the process of nuclear fission?",
-    "subject": "Physics",
-    "topic": "Nuclear Physics",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "What is the capital of Canada?",
-    "subject": "Geography",
-    "topic": "Countries",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "What is the square root of 49?",
-    "subject": "Mathematics",
-    "topic": "Algebra",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Explain the process of protein synthesis in detail.",
-    "subject": "Biology",
-    "topic": "Genetics",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
-    "question": "Who discovered penicillin?",
-    "subject": "Medicine",
-    "topic": "Antibiotics",
-    "difficulty": "Medium",
-    "marks": 10
-  },
-  {
     "question": "What is the boiling point of water in Celsius?",
     "subject": "Chemistry",
     "topic": "Physical Properties",
@@ -278,6 +285,489 @@
     "topic": "Saturn's Moons",
     "difficulty": "Medium",
     "marks": 10
+  },
+  {
+    "question": "What is the significance of the number π (pi) in geometry?",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "What is the capital of Brazil?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Define the term 'covalent bond' in chemistry.",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "subject": "Literature",
+    "topic": "Shakespearean Plays",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Describe the structure of a prokaryotic cell.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Solve the equation: 3y - 7 = 14",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "What is the GDP of Germany?",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Explain the concept of momentum in physics.",
+    "subject": "Physics",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "What is the melting point of gold?",
+    "subject": "Chemistry",
+    "topic": "Physical Properties",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Name the second-largest planet in our solar system.",
+    "subject": "Astronomy",
+    "topic": "Planets",
+    "difficulty": "Medium",
+    "marks": 1
+  },
+  {
+    "question": "Discuss the concept of utility in microeconomics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "Discuss the role of symbolism in James Joyce's 'Ulysses.'",
+    "subject": "Literature",
+    "topic": "Modernist Literature",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "Who is the author of 'Harry Potter'?",
+    "subject": "Literature",
+    "topic": "Fiction",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "What is the process of nuclear fission?",
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "What is the square root of 49?",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "Explain the process of protein synthesis in detail.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 2
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "subject": "Medicine",
+    "topic": "Antibiotics",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "Name the longest river in Africa.",
+    "subject": "Geography",
+    "topic": "Rivers",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "What is the molecular structure of methane?",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "Discuss the theme of love in Emily Brontë's 'Wuthering Heights.'",
+    "subject": "Literature",
+    "topic": "Victorian Literature",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "Explain the concept of natural selection in evolution.",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "Solve the inequality: 4x + 9 > 21",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "What is the concept of inflation in economics?",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "difficulty": "Medium",
+    "marks": 3
+  },
+  {
+    "question": "Examine the principles of electromagnetic induction in physics.",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "Name the largest moon of Jupiter.",
+    "subject": "Astronomy",
+    "topic": "Jupiter's Moons",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "Discuss the concept of market equilibrium in microeconomics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "What is the official language of India?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "Define the term 'oxidation' in chemistry.",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "Explore the concept of existentialism in Albert Camus' works.",
+    "subject": "Literature",
+    "topic": "Existentialism",
+    "difficulty": "Medium",
+    "marks": 4
+  },
+  {
+    "question": "Explain the process of meiosis in detail.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Solve the system of equations: 2x - y = 5, 3x + 2y = 12",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "What is the concept of elasticity in economics?",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the principles of quantum mechanics in physics.",
+    "subject": "Physics",
+    "topic": "Quantum Physics",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Name the largest moon of Neptune.",
+    "subject": "Astronomy",
+    "topic": "Neptune's Moons",
+    "difficulty": "Medium",
+    "marks": 5
+  },
+  {
+    "question": "Examine the concept of externalities in microeconomics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "Define the term 'ion' in chemistry.",
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "Explore the theme of dystopia in George Orwell's '1984.'",
+    "subject": "Literature",
+    "topic": "Dystopian Literature",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "Explain the process of DNA replication in detail.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "Solve the equation: 5a + 8 = 33",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 6
+  },
+  {
+    "question": "What is the concept of monopoly in economics?",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "Discuss the principles of thermodynamics in physics.",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "Name the largest moon of Uranus.",
+    "subject": "Astronomy",
+    "topic": "Uranus's Moons",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "Examine the concept of oligopoly in microeconomics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "What is the capital of Mexico?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Define the term 'acid-base reaction' in chemistry.",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Explore the concept of magical realism in Gabriel Garcia Marquez's works.",
+    "subject": "Literature",
+    "topic": "Magical Realism",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Explain the process of RNA transcription in detail.",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Solve the inequality: 2x - 6 > 10",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "What is the concept of fiscal policy in economics?",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Discuss the principles of fluid dynamics in physics.",
+    "subject": "Physics",
+    "topic": "Fluid Mechanics",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "What is the atomic mass of helium?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "Name the largest moon of Mars.",
+    "subject": "Astronomy",
+    "topic": "Mars's Moons",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "Examine the concept of externalities in environmental economics.",
+    "subject": "Economics",
+    "topic": "Environmental Economics",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "subject": "Geography",
+    "topic": "Countries",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "Define the term 'stoichiometry' in chemistry.",
+    "subject": "Chemistry",
+    "topic": "Chemical Calculations",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "Explore the theme of identity in Jhumpa Lahiri's 'The Namesake.'",
+    "subject": "Literature",
+    "topic": "Postcolonial Literature",
+    "difficulty": "Medium",
+    "marks": 9
+  },
+  {
+    "question": "Explain the process of mitosis in detail.",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "Solve the equation: 4y + 7 = 23",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "What is the concept of comparative advantage in economics?",
+    "subject": "Economics",
+    "topic": "International Trade",
+    "difficulty": "Medium",
+    "marks": 7
+  },
+  {
+    "question": "Discuss the principles of special relativity in physics.",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "subject": "Chemistry",
+    "topic": "Elements",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Name the largest moon of Earth.",
+    "subject": "Astronomy",
+    "topic": "Earth's Moon",
+    "difficulty": "Medium",
+    "marks": 8
+  },
+  {
+    "question": "Examine the concept of game theory in microeconomics.",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "difficulty": "Medium",
+    "marks": 8
   },
   {
     "question": "Explain the principles of quantum entanglement in physics.",
@@ -354,69 +844,412 @@
     "subject": "History",
     "topic": "Colonialism",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 1
   },
   {
     "question": "Examine the molecular mechanisms of antibiotic resistance in bacteria and potential strategies to combat it.",
     "subject": "Biology",
     "topic": "Microbiology",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 1
   },
   {
     "question": "Discuss the philosophical implications of artificial intelligence and its potential impact on consciousness.",
     "subject": "Philosophy",
     "topic": "AI Ethics",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 1
   },
   {
     "question": "Analyze the historical development and impact of the Internet on communication and information dissemination.",
     "subject": "Technology",
     "topic": "Internet History",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 1
   },
   {
     "question": "Examine the physiological and psychological effects of long-term space travel on the human body and mind.",
     "subject": "Space Science",
     "topic": "Space Travel",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 1
   },
   {
     "question": "Discuss the mathematical basis and applications of game theory in various fields, including economics and biology.",
     "subject": "Mathematics",
     "topic": "Game Theory",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 2
   },
   {
     "question": "Analyze the role of women in shaping historical events and social movements throughout different time periods.",
     "subject": "History",
     "topic": "Women's History",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 2
   },
   {
     "question": "Examine the molecular and cellular mechanisms underlying neurodegenerative diseases such as Alzheimer's and Parkinson's.",
     "subject": "Medicine",
     "topic": "Neurology",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 2
   },
   {
     "question": "Discuss the historical and cultural significance of major ancient civilizations, such as Mesopotamia, Egypt, and the Indus Valley.",
     "subject": "History",
     "topic": "Ancient Civilizations",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 2
   },
   {
     "question": "Evaluate the economic, social, and environmental impact of large-scale renewable energy projects.",
     "subject": "Environmental Science",
     "topic": "Renewable Energy",
     "difficulty": "Hard",
-    "marks": 15
+    "marks": 2
+  },
+  {
+    "question": "Explain the principles of quantum entanglement and its implications for particle physics.",
+    "subject": "Physics",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Hard",
+    "marks": 3
+  },
+  {
+    "question": "Prove the convergence of the Riemann zeta function for complex numbers with real part greater than 1.",
+    "subject": "Mathematics",
+    "topic": "Advanced Calculus",
+    "difficulty": "Hard",
+    "marks": 3
+  },
+  {
+    "question": "Discuss the challenges and ethical considerations in developing fully autonomous AI systems with general intelligence.",
+    "subject": "Computer Science",
+    "topic": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "marks": 3
+  },
+  {
+    "question": "Explain the molecular mechanisms underlying long-term potentiation and its role in synaptic plasticity.",
+    "subject": "Biology",
+    "topic": "Neurobiology",
+    "difficulty": "Hard",
+    "marks": 3
+  },
+  {
+    "question": "Discuss the economic implications of globalization on income inequality in developing countries.",
+    "subject": "Economics",
+    "topic": "Globalization",
+    "difficulty": "Hard",
+    "marks": 4
+  },
+  {
+    "question": "Analyze the impact of the Black Death on medieval European society, considering social, economic, and cultural aspects.",
+    "subject": "History",
+    "topic": "Black Death",
+    "difficulty": "Hard",
+    "marks": 4
+  },
+  {
+    "question": "Examine the ethical considerations surrounding the use of CRISPR technology for human gene editing.",
+    "subject": "Biology",
+    "topic": "Genetic Engineering",
+    "difficulty": "Hard",
+    "marks": 4
+  },
+  {
+    "question": "Explore the mathematical foundations of topology and its applications in different branches of mathematics.",
+    "subject": "Mathematics",
+    "topic": "Topology",
+    "difficulty": "Hard",
+    "marks": 4
+  },
+  {
+    "question": "Compare and contrast different economic ideologies, such as capitalism, socialism, and communism.",
+    "subject": "Economics",
+    "topic": "Economic Ideologies",
+    "difficulty": "Hard",
+    "marks": 5
+  },
+  {
+    "question": "Examine the cultural and scientific achievements of the Islamic Golden Age and their impact on the world.",
+    "subject": "History",
+    "topic": "Islamic Golden Age",
+    "difficulty": "Hard",
+    "marks": 5
+  },
+  {
+    "question": "Discuss the role of dark matter and dark energy in the large-scale structure of the universe.",
+    "subject": "Astronomy",
+    "topic": "Cosmology",
+    "difficulty": "Hard",
+    "marks": 5
+  },
+  {
+    "question": "Analyze the environmental consequences of deforestation and potential strategies for conservation.",
+    "subject": "Environmental Science",
+    "topic": "Deforestation",
+    "difficulty": "Hard",
+    "marks": 5
+  },
+  {
+    "question": "Explain the principles and applications of quantum computing in modern information technology.",
+    "subject": "Computer Science",
+    "topic": "Quantum Computing",
+    "difficulty": "Hard",
+    "marks": 6
+  },
+  {
+    "question": "Evaluate the political and economic effects of the Industrial Revolution on different regions of the world.",
+    "subject": "History",
+    "topic": "Industrial Revolution",
+    "difficulty": "Hard",
+    "marks": 6
+  },
+  {
+    "question": "Analyze the impact of imperialism on the cultural and economic development of colonized regions.",
+    "subject": "History",
+    "topic": "Imperialism",
+    "difficulty": "Hard",
+    "marks": 6
+  },
+  {
+    "question": "Examine the molecular mechanisms of antibiotic resistance in bacteria and potential strategies to combat it.",
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "difficulty": "Hard",
+    "marks": 6
+  },
+  {
+    "question": "Discuss the philosophical implications of artificial intelligence and its potential impact on consciousness.",
+    "subject": "Philosophy",
+    "topic": "AI Ethics",
+    "difficulty": "Hard",
+    "marks": 7
+  },
+  {
+    "question": "Analyze the historical development and impact of the Internet on communication and information dissemination.",
+    "subject": "Technology",
+    "topic": "Internet History",
+    "difficulty": "Hard",
+    "marks": 7
+  },
+  {
+    "question": "Examine the physiological and psychological effects of long-term space travel on the human body and mind.",
+    "subject": "Space Science",
+    "topic": "Space Travel",
+    "difficulty": "Hard",
+    "marks": 7
+  },
+  {
+    "question": "Discuss the mathematical basis and applications of game theory in various fields, including economics and biology.",
+    "subject": "Mathematics",
+    "topic": "Game Theory",
+    "difficulty": "Hard",
+    "marks": 7
+  },
+  {
+    "question": "Analyze the role of women in shaping historical events and social movements throughout different time periods.",
+    "subject": "History",
+    "topic": "Women's History",
+    "difficulty": "Hard",
+    "marks": 8
+  },
+  {
+    "question": "Examine the molecular and cellular mechanisms underlying neurodegenerative diseases such as Alzheimer's and Parkinson's.",
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "difficulty": "Hard",
+    "marks": 8
+  },
+  {
+    "question": "Discuss the historical and cultural significance of major ancient civilizations, such as Mesopotamia, Egypt, and the Indus Valley.",
+    "subject": "History",
+    "topic": "Ancient Civilizations",
+    "difficulty": "Hard",
+    "marks": 8
+  },
+  {
+    "question": "Evaluate the economic, social, and environmental impact of large-scale renewable energy projects.",
+    "subject": "Environmental Science",
+    "topic": "Renewable Energy",
+    "difficulty": "Hard",
+    "marks": 8
+  },
+  {
+    "question": "Explain the principles of quantum entanglement and its implications for particle physics.",
+    "subject": "Physics",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Hard",
+    "marks": 9
+  },
+  {
+    "question": "Prove the convergence of the Riemann zeta function for complex numbers with real part greater than 1.",
+    "subject": "Mathematics",
+    "topic": "Advanced Calculus",
+    "difficulty": "Hard",
+    "marks": 9
+  },
+  {
+    "question": "Discuss the challenges and ethical considerations in developing fully autonomous AI systems with general intelligence.",
+    "subject": "Computer Science",
+    "topic": "Artificial Intelligence",
+    "difficulty": "Hard",
+    "marks": 9
+  },
+  {
+    "question": "Explain the molecular mechanisms underlying long-term potentiation and its role in synaptic plasticity.",
+    "subject": "Biology",
+    "topic": "Neurobiology",
+    "difficulty": "Hard",
+    "marks": 9
+  },
+  {
+    "question": "Evaluate the impact of colonialism on indigenous cultures, considering both positive and negative aspects.",
+    "subject": "History",
+    "topic": "Colonialism",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Discuss the historical and cultural impact of the Renaissance on art, science, and society.",
+    "subject": "History",
+    "topic": "Renaissance",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Analyze the geopolitical consequences of climate change on global security and migration patterns.",
+    "subject": "Environmental Science",
+    "topic": "Climate Change",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Explain the principles and applications of advanced machine learning algorithms in real-world scenarios.",
+    "subject": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "difficulty": "Hard",
+    "marks": 10
+  },
+  {
+    "question": "Evaluate the impact of the Enlightenment on political thought and governance systems.",
+    "subject": "History",
+    "topic": "Enlightenment",
+    "difficulty": "Hard",
+    "marks": 11
+  },
+  {
+    "question": "Discuss the historical and cultural significance of major ancient empires, such as the Roman Empire and the Byzantine Empire.",
+    "subject": "History",
+    "topic": "Ancient Empires",
+    "difficulty": "Hard",
+    "marks": 11
+  },
+  {
+    "question": "Examine the psychological and societal impacts of artificial intelligence on human behavior and interactions.",
+    "subject": "Psychology",
+    "topic": "AI Impact",
+    "difficulty": "Hard",
+    "marks": 11
+  },
+  {
+    "question": "Analyze the economic and social consequences of the Great Depression on different countries.",
+    "subject": "Economics",
+    "topic": "Great Depression",
+    "difficulty": "Hard",
+    "marks": 11
+  },
+  {
+    "question": "Explain the principles of quantum tunneling in quantum mechanics and its applications in electronic devices.",
+    "subject": "Physics",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Hard",
+    "marks": 12
+  },
+  {
+    "question": "Discuss the historical development and impact of the Scientific Revolution on scientific thought and inquiry.",
+    "subject": "History",
+    "topic": "Scientific Revolution",
+    "difficulty": "Hard",
+    "marks": 12
+  },
+  {
+    "question": "Evaluate the ethical considerations of using gene editing technologies to enhance human capabilities.",
+    "subject": "Ethics",
+    "topic": "Gene Editing Ethics",
+    "difficulty": "Hard",
+    "marks": 12
+  },
+  {
+    "question": "Analyze the economic, political, and cultural effects of the Cold War on different regions of the world.",
+    "subject": "History",
+    "topic": "Cold War",
+    "difficulty": "Hard",
+    "marks": 12
+  },
+  {
+    "question": "Examine the ecological impacts of biodiversity loss and potential conservation strategies.",
+    "subject": "Environmental Science",
+    "topic": "Biodiversity Loss",
+    "difficulty": "Hard",
+    "marks": 13
+  },
+  {
+    "question": "Discuss the historical and cultural significance of major revolutions, such as the American Revolution and the French Revolution.",
+    "subject": "History",
+    "topic": "Revolutions",
+    "difficulty": "Hard",
+    "marks": 13
+  },
+  {
+    "question": "Evaluate the economic and social consequences of the Industrial Revolution on labor markets and urbanization.",
+    "subject": "Economics",
+    "topic": "Industrial Revolution",
+    "difficulty": "Hard",
+    "marks": 13
+  },
+  {
+    "question": "Examine the role of artificial intelligence in healthcare, considering both opportunities and challenges.",
+    "subject": "Artificial Intelligence",
+    "topic": "AI in Healthcare",
+    "difficulty": "Hard",
+    "marks": 13
+  },
+  {
+    "question": "Analyze the historical development and impact of the Civil Rights Movement on social and political change.",
+    "subject": "History",
+    "topic": "Civil Rights Movement",
+    "difficulty": "Hard",
+    "marks": 14
+  },
+  {
+    "question": "Discuss the ethical implications of genetic cloning and its potential applications in medicine and agriculture.",
+    "subject": "Ethics",
+    "topic": "Genetic Cloning Ethics",
+    "difficulty": "Hard",
+    "marks": 14
+  },
+  {
+    "question": "Examine the psychological and social effects of technology addiction on individuals and society.",
+    "subject": "Psychology",
+    "topic": "Technology Addiction",
+    "difficulty": "Hard",
+    "marks": 14
+  },
+  {
+    "question": "Evaluate the economic and political impacts of globalization on developed countries.",
+    "subject": "Economics",
+    "topic": "Globalization",
+    "difficulty": "Hard",
+    "marks": 14
+  },
+  {
+    "question": "Discuss the historical and cultural significance of major scientific discoveries, such as the theory of evolution and the discovery of DNA.",
+    "subject": "History",
+    "topic": "Scientific Discoveries",
+    "difficulty": "Hard",
+    "marks": 5
   }
 ]
