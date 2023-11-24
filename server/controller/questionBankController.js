@@ -3,9 +3,9 @@ const quesBankGenerator = require("../service/questionBankService");
 const questionBankController = async(req,resp) => {
     try{
         const quesPaper = await quesBankGenerator(req);
-        const {status,returnObj} = quesPaper;
+        const {status,message} = quesPaper;
         
-        resp.status(status).send(returnObj);
+        resp.status(status).send(message);
     }catch(error){
         resp.status(500).send({
             error : error

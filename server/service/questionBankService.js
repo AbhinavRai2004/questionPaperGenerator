@@ -66,7 +66,7 @@ const quesBankGenerator = (req) => {
     });
 
     totalQuestionArr.push(easyQuestionArr, mediumQuestionArr, hardQuestionArr);
-    return {status : 200 , returnObj : totalQuestionArr};
+    return {status : 200 , message : totalQuestionArr};
   } 
 
 module.exports = quesBankGenerator;

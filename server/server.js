@@ -5,7 +5,8 @@ const testRouter = require('./routes/testRoutes');
 
 const app = express();
 app.use(express.json());
-app.use('/',Router);
+app.use('/generate_question_paper',Router);
+// app.use('/test',testRouter)
  
 const PORT = 8080;
 
