@@ -16,9 +16,9 @@ https://github.com/AbhinavRai2004/questionPaperGenerator.git
 
 ## Running the Application
 
-Step 1 : Run the following command on terminal
+#Step 1 : Run the following command on terminal
             node server.js
-Step 2 : Hit the below API on postman with request body
+#Step 2 : Hit the below API on postman with request body
            http://localhost:8080/generate_question_paper
         
         Body ->
