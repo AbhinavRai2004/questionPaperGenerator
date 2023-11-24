@@ -24,6 +24,11 @@ const quesBankGenerator = (req) => {
         // console.log("Negative values are not allowed for total marks or difficulty levels.");
         return {status : 400 , message : "Error: Negative values are not allowed for total marks or difficulty levels."};
     }
+    if((userInput['easy'] + userInput['medium'] + userInput['hard'])  != 100 )
+    { 
+        // console.log("The sum of difficulty percentages must equal to 100.");
+        return {status : 400, message : "Error: The sum of difficulty percentages must equal to 100." };
+    }
     if((((userInput['totalMarks']*userInput['easy'])/100) % 5 != 0) || 
       (((userInput['totalMarks']*userInput['medium'])/100) % 10 != 0) ||
       (((userInput['totalMarks']*userInput['hard'])/100) % 15 != 0))
@@ -33,11 +38,6 @@ const quesBankGenerator = (req) => {
       "Easy Question Mark Distribution must be in multiple of 5", 
       "Medium Question Mark Distribution must be in multiple of 10",
       "Hard Question Mark Distribution must be in multiple of 15"]}};
-    }
-    if((userInput['easy'] + userInput['medium'] + userInput['hard'])  != 100 )
-    {
-        // console.log("The sum of difficulty percentages must equal to 100.");
-        return {status : 400, message : "Error: The sum of difficulty percentages must equal to 100." };
     }
 
     const easyQuestionCn = Math.ceil(((userInput['totalMarks'] * userInput['easy']) / 100)/5);
