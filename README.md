@@ -4,14 +4,14 @@ This repository contains the implementation of a Question Paper Generator applic
 
 ## Setup
 
-#1. Clone this repository: 
+## 1. Clone this repository: 
 https://github.com/AbhinavRai2004/questionPaperGenerator.git
 
-#2.Navigate to the project directory through terminal/powershell/bash: 
+## 2.Navigate to the project directory through terminal/powershell/bash: 
     Step 1 - cd questionPaperGenerator
     Step 2 - cd server
 
-#3.Install dependencies:
+## 3.Install dependencies:
     npm install
 
 ## Running the Application
