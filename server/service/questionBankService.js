@@ -17,17 +17,17 @@ const quesBankGenerator = (req) => {
     if (!userInput || !userInput['totalMarks'] || !userInput['easy'] || !userInput['medium'] || !userInput['hard'])
     {
         // console.log('Missing required parameters');
-        return {status : 400 , message : "Error : Missing Required Parameters"};
+        return {status : 400 , message : {"Error" : "Missing Required Parameters"}};
     }
     if(userInput['totalMarks'] < 0 || userInput['easy'] < 0 || userInput['medium'] < 0 || userInput['hard'] < 0)
     {
         // console.log("Negative values are not allowed for total marks or difficulty levels.");
-        return {status : 400 , message : "Error: Negative values are not allowed for total marks or difficulty levels."};
+        return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}};
     }
     if((userInput['easy'] + userInput['medium'] + userInput['hard'])  != 100 )
     { 
         // console.log("The sum of difficulty percentages must equal to 100.");
-        return {status : 400, message : "Error: The sum of difficulty percentages must equal to 100." };
+        return {status : 400, message : {"Error": "The sum of difficulty percentages must equal to 100." }};
     }
     if((((userInput['totalMarks']*userInput['easy'])/100) % 5 != 0) || 
       (((userInput['totalMarks']*userInput['medium'])/100) % 10 != 0) ||
