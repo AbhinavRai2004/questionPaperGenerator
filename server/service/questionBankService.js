@@ -10,52 +10,87 @@ const shuffleArray = (array) => {
 const quesBankGenerator = (req) => {
     const userInput = req.body;
 
-
-    if (!userInput || !userInput["difficultyPercentage"] || !userInput["easy"] || !userInput["totalMarks"] || !userInput["medium"] || !userInput["hard"]) 
+    if (!userInput || !userInput["easy"] || !userInput["totalMarks"] || !userInput["medium"] || !userInput["hard"]) 
     {
         return { status: 400, message: {"Error" : "Missing Required Parameter"} };
     }
-    
     if(userInput['totalMarks'] < 0){
         return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
     }
-    
-    // const difficultyPercentageArr = Object.entries(userInput["difficultyPercentage"]);
+
     const easyUserInputArr = Object.entries(userInput["easy"]);
     const mediumUserInputArr = Object.entries(userInput["medium"]);
     const hardUserInputArr = Object.entries(userInput["hard"]);
 
-    if(userInput["difficultyPercentage"]['e']+ userInput["difficultyPercentage"]["m"] + userInput["difficultyPercentage"]["h"]  != 100 )
-    { 
-        // console.log("The sum of difficulty percentages must equal to 100.");
-        return {status : 400, message : {"Error" : "The sum of difficulty percentages must equal to 100."} };
-    }
-    
+    let easyMark = 0,mediumMark = 0,hardMark = 0;
+
     for(let i = 0; i < easyUserInputArr.length ; i++)
     {  
-       if((((userInput['totalMarks']*easyUserInputArr[i][1])/100) % 5 != 0)){
-           return { status: 400, message : { "Error" : 
-                  [ "The total marks cannot be distributed according to the specified percentages.",
-                    "Easy Question Mark Distribution must be in multiple of 5", 
-                    "Medium Question Mark Distribution must be in multiple of 10",
-                    "Hard Question Mark Distribution must be in multiple of 15"] 
-                }};
+    if(easyUserInputArr[i][1] < 0)
+    {
+        return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
+    }
+    easyMark += easyUserInputArr[i][1];
+    if(easyMark > 100) {
+        return { status:400, message : {"Error" : "Individual difficulty level percentage must be less than or equal to 100"}}
     }
     }
+
     for(let i = 0; i < mediumUserInputArr.length ; i++)
-    { 
+    {  
+        if(mediumUserInputArr[i][1] < 0)
+        {
+            return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
+        }
+        mediumMark += mediumUserInputArr[i][1];
+        if(mediumMark > 100) {
+            return { status:400, message : {"Error" : "Individual difficulty level percentage must be less than or equal to 100"}}
+        }
+    }
+
+    for(let i = 0; i < hardUserInputArr.length ; i++)
+    {    
+        if(hardUserInputArr[i][1] < 0)
+        {
+            return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
+        }
+        hardMark += hardUserInputArr[i][1];
+        if(hardMark > 100) {
+            return { status:400, message : {"Error" : "Individual difficulty level percentage must be less than or equal to 100"}}
+        }
+    }
+
+    if(easyMark + mediumMark + hardMark  != 100 )
+    {
+        return {status : 400, message : {"Error" : "The sum of difficulty percentages must equal to 100."} };
+    }
+
+    for(let i = 0; i < easyUserInputArr.length ; i++)
+    {  
+      if((((userInput['totalMarks']*easyUserInputArr[i][1])/100) % 5 != 0)){
+        return { status: 400, message : { "Error" : 
+               [ "The total marks cannot be distributed according to the specified percentages.",
+                 "Easy Question Mark Distribution must be in multiple of 5", 
+                 "Medium Question Mark Distribution must be in multiple of 10",
+                 "Hard Question Mark Distribution must be in multiple of 15"] 
+     }};
+    }
+    }
+
+    for(let i = 0; i < mediumUserInputArr.length ; i++)
+    {  
         if((((userInput['totalMarks']*mediumUserInputArr[i][1])/100) % 10 != 0)){
             return { status: 400, message : { "Error" : 
                   [ "The total marks cannot be distributed according to the specified percentages.",
                     "Easy Question Mark Distribution must be in multiple of 5", 
                     "Medium Question Mark Distribution must be in multiple of 10",
                     "Hard Question Mark Distribution must be in multiple of 15"] 
-                }};
+            }};
         }
     }
     for(let i = 0; i < hardUserInputArr.length ; i++)
     {    
-       if((((userInput['totalMarks']*hardMark)/100) % 15 != 0))
+       if((((userInput['totalMarks']*hardUserInputArr[i][1])/100) % 15 != 0))
         {
             return { status: 400, message : { "Error" : 
                     [ "The total marks cannot be distributed according to the specified percentages.",
@@ -65,7 +100,7 @@ const quesBankGenerator = (req) => {
           }};
         }
     }
-
+    
   const easyQuestionSet = [];
   const mediumQuestionSet = [];
   const hardQuestionSet = [];
@@ -74,41 +109,25 @@ const quesBankGenerator = (req) => {
   let totalHardQuestion = 0;
   
   for (let i = 0; i < easyUserInputArr.length; i++) {
-    // console.log(easyQuestionSet);
     let easyQuestionTopic = easyUserInputArr[i][0];
-    let easyQuestion = Math.ceil(
-      (userInput["totalMarks"] * easyUserInputArr[i][1]) / 100 / 5
-    );
-    // console.log(easyUserInputArr[i][1]);
+    let easyQuestion = Math.ceil((userInput["totalMarks"] * easyUserInputArr[i][1]) / 100 / 5);
     totalEasyQuestion += easyQuestion;
-
     easyQuestionSet.push([easyQuestionTopic, easyQuestion]);
   }
+
   for (let i = 0; i < mediumUserInputArr.length; i++) {
     let mediumQuestionTopic = mediumUserInputArr[i][0];
-    let mediumQuestion = Math.ceil(
-      (userInput["totalMarks"] * mediumUserInputArr[i][1]) / 100 / 10
-    );
+    let mediumQuestion = Math.ceil((userInput["totalMarks"] * mediumUserInputArr[i][1]) / 100 / 10);
     totalMediumQuestion += mediumQuestion;
-
     mediumQuestionSet.push([mediumQuestionTopic, mediumQuestion]);
   }
+
   for (let i = 0; i < hardUserInputArr.length; i++) {
     let hardQuestionTopic = hardUserInputArr[i][0];
-    let hardQuestion = Math.ceil(
-      (userInput["totalMarks"] * hardUserInputArr[i][1]) / 100 / 15
-    );
+    let hardQuestion = Math.ceil((userInput["totalMarks"] * hardUserInputArr[i][1]) / 100 / 15);
     totalHardQuestion += hardQuestion;
-
     hardQuestionSet.push([hardQuestionTopic, hardQuestion]);
   }
-
-  console.log(
-    easyQuestionSet,
-    mediumQuestionSet,
-    hardQuestionSet,
-    totalHardQuestion
-  );
 
   shuffleArray(quesSample);
 
