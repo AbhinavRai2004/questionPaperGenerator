@@ -8,8 +8,8 @@ This repository contains the implementation of a Question Paper Generator applic
 >`https://github.com/AbhinavRai2004/questionPaperGenerator.git`
 
 ## 2.Navigate to the project directory through terminal/powershell/bash: 
-> 1. `cd questionPaperGenerator`
-> 2.  `cd server`
+1. `cd questionPaperGenerator`
+2.  `cd server`
 
 ## 3.Install dependencies:
 > `npm install`
