@@ -8,8 +8,8 @@ This repository contains the implementation of a Question Paper Generator applic
 https://github.com/AbhinavRai2004/questionPaperGenerator.git
 
 ## 2.Navigate to the project directory through terminal/powershell/bash: 
-    Step 1 - cd questionPaperGenerator
-    Step 2 - cd server
+    `Step 1 - cd questionPaperGenerator`
+    `Step 2 - cd server`
 
 ## 3.Install dependencies:
     npm install
@@ -21,7 +21,7 @@ https://github.com/AbhinavRai2004/questionPaperGenerator.git
 ## Step 2 : Hit the below API on postman with request body
            http://localhost:8080/generate_question_paper
         
-        Body ->
+           Body ->
                 {
                 "totalMarks" : 100,
                 "easy" : 20,
