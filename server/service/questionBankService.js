@@ -11,7 +11,7 @@ const quesBankGenerator = (req) => {
     const userInput = req.body;
 
 
-    if (!userInput || !userInput["easy"] || !userInput["totalMarks"] || !userInput["medium"] || !userInput["hard"]) 
+    if (!userInput || !userInput["difficultyPercentage"] || !userInput["easy"] || !userInput["totalMarks"] || !userInput["medium"] || !userInput["hard"]) 
     {
         return { status: 400, message: {"Error" : "Missing Required Parameter"} };
     }
@@ -19,45 +19,18 @@ const quesBankGenerator = (req) => {
     if(userInput['totalMarks'] < 0){
         return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
     }
-
+    
+    // const difficultyPercentageArr = Object.entries(userInput["difficultyPercentage"]);
     const easyUserInputArr = Object.entries(userInput["easy"]);
     const mediumUserInputArr = Object.entries(userInput["medium"]);
     const hardUserInputArr = Object.entries(userInput["hard"]);
-    
 
-    let easyMark = 0,mediumMark = 0,hardMark = 0;
-    
-    for(let i = 0; i < easyUserInputArr.length ; i++)
-    {  
-    if(easyUserInputArr[i][1] < 0)
-    {
-        return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
-    }
-    easyMark += easyUserInputArr[i][1];
-    }
-    for(let i = 0; i < mediumUserInputArr.length ; i++)
-    {  
-        if(mediumUserInputArr[i][1] < 0)
-        {
-            return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
-        }
-        mediumMark += mediumUserInputArr[i][1];
-    }
-    for(let i = 0; i < hardUserInputArr.length ; i++)
-    {    
-        if(hardUserInputArr[i][1] < 0)
-        {
-            return {status : 400 , message : {"Error" : "Negative values are not allowed for total marks or difficulty levels."}}
-        }
-        hardMark += hardUserInputArr[i][1];
-    }
-
-    if(easyMark + mediumMark + hardMark  != 100 )
+    if(userInput["difficultyPercentage"]['e']+ userInput["difficultyPercentage"]["m"] + userInput["difficultyPercentage"]["h"]  != 100 )
     { 
         // console.log("The sum of difficulty percentages must equal to 100.");
         return {status : 400, message : {"Error" : "The sum of difficulty percentages must equal to 100."} };
     }
-
+    
     for(let i = 0; i < easyUserInputArr.length ; i++)
     {  
        if((((userInput['totalMarks']*easyUserInputArr[i][1])/100) % 5 != 0)){
