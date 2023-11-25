@@ -12,7 +12,10 @@ This repository contains the implementation of a Question Paper Generator applic
 2.  `cd server`
 
 ## 3.Install dependencies:
+ ```
  `npm install`
+ ```
+ 
 
 ## Running the Application
 
