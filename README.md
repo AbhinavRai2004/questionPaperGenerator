@@ -12,14 +12,14 @@ This repository contains the implementation of a Question Paper Generator applic
 2.  `cd server`
 
 ## 3.Install dependencies:
-> `npm install`
+ `npm install`
 
 ## Running the Application
 
 ## Step 1 : Run the following command on terminal
-> `node server.js`
+ `node server.js`
 ## Step 2 : Hit the below API on postman with request body
-> `http://localhost:8080/generate_question_paper`
+ `http://localhost:8080/generate_question_paper`
 
 **Body:**
 ```
