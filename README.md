@@ -5,33 +5,39 @@ This repository contains the implementation of a Question Paper Generator applic
 ## Setup
 
 ## 1. Clone this repository: 
-https://github.com/AbhinavRai2004/questionPaperGenerator.git
+>`https://github.com/AbhinavRai2004/questionPaperGenerator.git`
 
 ## 2.Navigate to the project directory through terminal/powershell/bash: 
-    Step 1 - cd questionPaperGenerator
-    Step 2 - cd server
+> 1. `cd questionPaperGenerator`
+> 2.  `cd server`
 
 ## 3.Install dependencies:
-    npm install
+> `npm install`
 
 ## Running the Application
 
 ## Step 1 : Run the following command on terminal
-            node server.js
+> `node server.js`
 ## Step 2 : Hit the below API on postman with request body
-           http://localhost:8080/generate_question_paper
-        
-        Body ->
-                {
-                "totalMarks" : 100,
-                "easy" : 20,
-                "medium" : 50,
-                "hard" : 30
-                }
+> `http://localhost:8080/generate_question_paper`
+
+**Body:**
+```
+{
+    "totalMarks" : 100,
+    "easy" : 20,
+    "medium" : 50,
+    "hard" : 30       
+}
+```
+
+**Screenshot**:
+
+![Alt Text](image.png)
   
 ## Conclusion
 Thank you for reviewing the Question Paper Generator application. If you have any questions or feedback, please feel free to reach out. Happy coding!
 
 Author: Abhinav Rai
 
-Contact: raiabhinav.in@gmail.com
+Contact: <raiabhinav.in@gmail.com>
